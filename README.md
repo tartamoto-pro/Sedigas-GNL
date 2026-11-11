@@ -4,12 +4,15 @@ Web de práctica para los dos exámenes de Técnico de Plantas Satélite de GNL:
 
 - **97 preguntas teóricas**: todas las de los bancos oficiales Tipo A y Tipo B (enero de 2021), por tema, con la respuesta correcta y una explicación breve.
 - **46 preguntas visuales**: las fotos de las diapositivas del curso con los rótulos tapados; hay que decir qué elemento señala cada número.
-- **Simulacro teórico** (20 preguntas repartidas por tema) y **simulacro visual** (10 elementos), con nota al final.
+- **Simulacros con el formato oficial** (PG-D-01 y PG-D-02 de Sedigas, mayo 2024):
+  - Test **tipo A**: 50 preguntas en 2 h. Test **tipo B**: 34 preguntas en 1 h 30. Salen por tema según las tablas oficiales, con 4 opciones cada una. Nota = (aciertos − 0,25 × fallos) × 10 / preguntas; en blanco no resta.
+  - **Visual**: 6 fotos en 1 h; en cada una hay que nombrar varios elementos numerados y se puntúa la parte acertada.
+  - Se aprueba cada examen con un **7**. Con cronómetro.
 - **Práctica** por tema o todas mezcladas, con corrección inmediata, y repaso solo de los fallos.
 - **Guía de estudio** en la carpeta `guia/`: esquema y resumen de los 13 temas, chuleta de cifras y las fotos con sus nombres (con un botón para ocultarlos y ponerte a prueba).
 - No necesita servidor ni instalar nada. El progreso se guarda en el navegador de cada dispositivo.
 
-> El material no dice cuántas preguntas tiene cada examen ni la nota de corte. El simulacro usa 20 teóricas y 10 visuales con un corte orientativo del 80 %. Para cambiarlo, edita `SIMULACRO` y `CORTE` al principio de `app.js`.
+> El reparto de preguntas por tema, los tiempos y la nota mínima están al principio de `app.js` (`TEORICO`, `VISUAL` y `APROBADO`), por si Sedigas los cambia.
 
 ## Probarla en tu ordenador
 
@@ -47,5 +50,5 @@ Edita `preguntas.js`. Cada pregunta es un bloque como este:
 
 ## Atajos de teclado
 
-- Teclas `1` a `5`: elegir respuesta.
+- Teclas `1` a `5`: elegir respuesta. En el simulacro, pulsar otra vez la misma la deja en blanco.
 - `Enter`: pasar a la siguiente pregunta en el modo práctica.

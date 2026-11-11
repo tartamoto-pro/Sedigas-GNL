@@ -132,3 +132,8 @@ textarea:focus{outline:none;border-color:var(--azul);box-shadow:0 0 0 4px var(--
   .stat{padding:8px 12px}.stat strong{font-size:1.25rem}
 }
 @media print{.top{position:static;backdrop-filter:none}body{background:#fff;color:#000}}
+
+/* Examen visual */
+.fila-vis{display:flex;align-items:center;gap:10px;margin:8px 0}
+.fila-vis .numv{flex:0 0 32px;height:32px;border-radius:50%;border:3px solid #dc1e1e;color:#dc1e1e;font-weight:800;display:flex;align-items:center;justify-content:center;background:#fff;flex-shrink:0}
+.fila-vis select{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--borde);border-radius:10px;font:inherit;background:transparent;color:inherit}
